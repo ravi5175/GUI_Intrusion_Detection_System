@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Intrusion Detection System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link href="static/bootstrap.css" rel="stylesheet">
+
+</head>
+<body style="background-image: url(static/b.jpg);height: 100%; background-repeat: no-repeat;background-position: center;background-repeat: no-repeat;background-size: cover;">
+  <div class="header head">
+    <h1>
+      <center>Intrusion Detection System</center>
+    </h1>
+  </div>
+  <div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 box2">
+        <center>
+          <h2>Compare Model</h2><br/>
+          <div class="dropdown">
+            
+
+           <form action= "Tmodel" method="POST" enctype=multipart/form-data >
+              
+            <div>
+            <select style="padding: 5px; color:white; background-color: #0e272a; width:250px" id="selectdf1" name="selectdf1" >
+               <option value="LR">Logistic Regression </option>
+               <option value="NB">Naive Bayes</option>
+               <option value="KNN">K-Nearest Neighbour</option>
+               <option value="DT">Decision Tree</option>
+               <option value="RF">Random Forest</option>
+            </select>
+            </div>
+            <BR>
+            <div>
+            <select style="padding: 5px; color:white; background-color: #0e272a; width:250px" id="selectdf2" name="selectdf2" >
+               <option value="LR">Logistic Regression </option>
+               <option value="NB">Naive Bayes</option>
+               <option value="KNN">K-Nearest Neighbour</option>
+               <option value="DT">Decision Tree Classifier</option>
+               <option value="RF">Random Forest Classifier</option>
+            </select>
+            </div>
+<br>
+
+              <div><button type="submit" class="btn btn-primary" style="background-color: #10292d">Submit</button></div>
+</form>
+          </div>
+        </center>
+      </div>
+    </div>
+    <div class="row">
+      <center>
+      <div class="col-md-6 box1">
+        <p style="left-margin:20px"><bold>Intrusion detection system (IDS) has become an essential layer in all the latest ICT 
+            system due to an urge towards cyber safety in the day-to-day world. Reasons including 
+            uncertainty in ﬁnding the types of attacks and increased the complexity of advanced cyber attacks.
+          </bold>
+        </p>
+      </div>
+    </center>
+    </div>
+  </div>
+  </div>
+  <footer class="row footer row3">
+    <div class="col-md-12">
+    <marquee><p>This IDS is developed by Himanshu (02320902716), Jai Shrivastava (02720902716) and Restu Kumari (04920902716) of G.B. Pant Govt. Engineering College under Minor Project
+    </p></marquee>
+    </div>
+  </footer>
+</body>
+</html>

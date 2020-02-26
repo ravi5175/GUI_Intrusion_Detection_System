@@ -1,0 +1,43 @@
+.head{
+   color: white;
+}
+
+.row3 {
+	position: fixed;
+	bottom: 0;
+}
+.header{
+	background:#282d2d;
+	color: white;
+	padding-left: 0px;
+    padding-right: 0px;
+    padding: 5px;
+}
+.box1{
+	border: solid 5px white ;
+	margin: 20px;
+	color: white;
+	padding: 20px;
+	background-color: #0e272a;
+}
+.box2{;
+	margin: 20px;
+	color: white;
+	padding: 50px;
+}
+.footer {
+   margin:0px; 
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding-left:0px;
+   padding-right: 0px;
+}
+.t{
+	background-color: #1b3c41;
+	color: #d4d9de;
+	width: 90px;
+	text-align: center;
+}
